@@ -22,6 +22,16 @@ coachs classes without worring about which player class to instanciate.
 from abc import ABC, abstractmethod
 
 
+__author__ = "Rami BELGACEM"
+__copyright__ = "Copyright 2022"
+__license__ = "GPL"
+
+__version__ = "1.0"
+__maintainer__ = "Rami BELGACEM"
+__email__ = "ramibelgacem@gmail.com"
+__status__ = "Development"
+
+
 class Player(ABC):
     """This interface define the action that all subclasses must implement"""
 
